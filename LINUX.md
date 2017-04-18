@@ -28,3 +28,13 @@
 ### Enforcing Key Based Authentication
 1. configure passwordauthentication to no in `/etc/ssh/sshd_config` file.
 2. restart server with `sudo service ssh restart`
+
+### Configuring Firewall(UFW)
+```bash
+sudo ufw default deny incoming
+sudo ufw default allow outgoing
+sudo ufw allow ssh
+sudo ufw allow 2222/tcp
+sudo ufw allow www
+sudo ufw enable
+```
