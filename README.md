@@ -14,3 +14,7 @@ A linux server that host an Item Catalog application.
 - [ ] Create database user name __catalog__ with limited permissions.
 - [ ] Install git.
 - [ ] Clone and setup [Item Catalog Application](https://github.com/oscarchang1226/udacity-catalog).
+
+## Sources
+- [Linux Configuration](https://github.com/jrleszcz/linux-server-setup/blob/master/how-to/configure-firewall-and-change-ssh-port.md)
+- [Ubuntu Updating Packages](https://www.digitalocean.com/community/questions/updating-ubuntu-14-04-security-updates)
