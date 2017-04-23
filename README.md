@@ -9,7 +9,7 @@ A linux server that host an Item Catalog application.
     - 123 ntp
 
 ## URL
-`http://52.206.20.209/`
+[http://52.206.20.209/](http://52.206.20.209/)
 
 ## SSH Key for `grader`
 Located in the path `/home/grader/.ssh`
