@@ -14,6 +14,18 @@ A linux server that host an Item Catalog application.
 ## SSH Key for `grader`
 Located in the path `/home/grader/.ssh`
 
+## Installed Software
+- postgresql python-psycopg2
+- python-sqlalchemy
+- python-pip
+    - werkzeug==0.8.3
+    - flask==0.9
+    - Flask-Login==0.1.3
+    - oauth2client
+    - requests
+    - httplib2
+    - bleach
+
 ## TODO
 - [x] New server instance on _Amazon Lightsail_.
 - [x] Change SSH port from 22 to 2200.
